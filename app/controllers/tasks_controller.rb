@@ -13,6 +13,7 @@ class TasksController < ApplicationController
   end
 
   def edit
+      p 'ruby on rails'
       @task = Task.find(params[:id])
   end
 
