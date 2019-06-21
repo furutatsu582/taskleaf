@@ -8,12 +8,10 @@ class TasksController < ApplicationController
   end
 
   def new
-    p 'new'
-    @task = Task.new
+      @task = Task.new
   end
 
   def edit
-      p 'ruby on rails'
       @task = Task.find(params[:id])
   end
 
