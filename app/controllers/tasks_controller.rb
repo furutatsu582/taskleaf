@@ -9,6 +9,7 @@ class TasksController < ApplicationController
 
   def new
       @task = Task.new
+      p '123'
   end
 
   def edit
